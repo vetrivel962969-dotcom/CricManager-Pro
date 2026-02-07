@@ -1,5 +1,6 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
@@ -588,6 +589,7 @@ const App: React.FC = () => {
           title={confirmation.title}
           message={confirmation.message}
       />
+      <Analytics />
     </div>
   );
 };
