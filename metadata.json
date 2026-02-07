@@ -1,0 +1,9 @@
+
+{
+  "name": "CricManager Pro - Mini IPL",
+  "description": "A web-based cricket tournament management platform to manage mini IPL-style tournaments. It handles team registration, match scheduling, live scoring, player statistics, and MVP tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
